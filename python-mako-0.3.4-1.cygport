@@ -1,0 +1,4 @@
+ORIG_PN="Mako"
+inherit distutils
+
+HOMEPAGE="http://www.makotemplates.org/"
