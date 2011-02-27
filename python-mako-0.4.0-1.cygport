@@ -1,0 +1,9 @@
+ORIG_PN="Mako"
+inherit distutils-multi
+
+HOMEPAGE="http://www.makotemplates.org/"
+
+PKG_NAMES="${PN} python3-mako"
+PKG_HINTS="setup setup3k"
+python_mako_CONTENTS="usr/bin/ ${PYTHON_SITELIB#/} usr/share/doc/"
+python3_mako_CONTENTS=${PYTHON3_SITELIB#/}
