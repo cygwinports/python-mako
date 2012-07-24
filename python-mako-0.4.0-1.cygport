@@ -1,4 +1,0 @@
-ORIG_PN="Mako"
-inherit python-distutils
-
-HOMEPAGE="http://www.makotemplates.org/"
