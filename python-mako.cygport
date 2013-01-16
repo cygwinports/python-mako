@@ -1,6 +1,9 @@
 ORIG_PN="Mako"
 inherit python-distutils
 
+NAME="python-mako"
+VERSION=0.7.2
+RELEASE=2
 CATEGORY="Python"
 SUMMARY="Python template library"
 DESCRIPTION="Mako is a template library written in Python. It provides a
